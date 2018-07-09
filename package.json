@@ -1,0 +1,19 @@
+{
+  "name": "babel-acqua",
+  "version": "1.0.0",
+  "description": "Babel Acqua Transformer Plugin",
+  "main": "index.js",
+  "author": "Sergio Marcelino",
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers js:@babel/register"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "@babel/register": "^7.0.0-beta.52",
+    "@babel/types": "^7.0.0-beta.52",
+    "chai": "^4.1.2",
+    "mocha": "^2.4.5"
+  }
+}
